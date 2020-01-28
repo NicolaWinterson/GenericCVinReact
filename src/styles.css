@@ -128,14 +128,6 @@ body {
 .skill_level .not_full {
 }
 
-.resume-item {
-  border-bottom: 1px solid rgb(255, 255, 255);
-  border-left: solid 2px rgb(63, 66, 113);
-  padding: 0px;
-  margin: 0px;
-  /* background: fuchsia; */
-}
-
 .resume-item ul {
   list-style-type: none;
 }
@@ -156,10 +148,23 @@ body {
   margin-bottom: 0;
 }
 
+.resume-item__content p {
+  margin: 0px;
+}
+
 .achievements__subheading {
   font-size: 1.8vmax;
   font-weight: bold;
   margin-bottom: 0;
+}
+
+.resume-item {
+  /* border-bottom: 1px solid rgb(255, 255, 255);*/
+  border-left: solid 2px rgb(63, 66, 113);
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  /* background: fuchsia; */
 }
 
 .resume-item:before {
