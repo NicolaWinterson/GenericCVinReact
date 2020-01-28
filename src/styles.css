@@ -114,8 +114,8 @@ body {
 .skill_level .full,
 .skill_level .not_full {
   display: inline-block;
-  height: 1.6vmin;
-  width: 1.6vmin;
+  height: 1.4vmax;
+  width: 1.4vmax;
   margin-right: 2px;
   border: 1px solid black;
   border-radius: 50%;
@@ -218,7 +218,7 @@ body {
 
 .skill_bar,
 .achievements__display--flex {
-  flex-basis: 40%;
+  flex-basis: 45%;
   display: inline;
   /* margin-right: 20px; */
 }
@@ -229,5 +229,5 @@ body {
 
 .skill_level {
   float: right;
-  margin-right: 8vw;
+  margin-right: 20px;
 }
