@@ -68,14 +68,14 @@ body {
 }
 
 .social-media-icons {
-  height: 3vh;
-  width: 3vh;
+  height: 3vmax;
+  width: 3vmax;
 }
 
 .contact-info,
 .social-media-links {
   font-style: normal;
-  font-size: 1.8vmin;
+  font-size: 1.8vmax;
   margin-bottom: 3vh;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .contact-info--header {
-  font-size: 5vmin;
+  font-size: 5vmax;
   text-transform: uppercase;
   overflow: hidden;
 }
@@ -143,7 +143,7 @@ body {
 .resume-item__title {
   text-transform: uppercase;
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 4vmin;
+  font-size: 4vmax;
   font-weight: 150;
   margin-bottom: 0;
   /* background: lime; */
@@ -151,13 +151,13 @@ body {
 
 .resume-item__subheading,
 .resume-item__content {
-  font-size: 1.8vmin;
+  font-size: 1.8vmax;
   font-weight: 100;
   margin-bottom: 0;
 }
 
 .achievements__subheading {
-  font-size: 1.8vmin;
+  font-size: 1.8vmax;
   font-weight: bold;
   margin-bottom: 0;
 }
