@@ -130,7 +130,7 @@ body {
 
 .resume-item {
   border-bottom: 1px solid rgb(255, 255, 255);
-  border-left: solid 2px rgb(22, 66, 37);
+  border-left: solid 2px rgb(63, 66, 113);
   padding: 0px;
   margin: 0px;
   /* background: fuchsia; */
@@ -165,12 +165,12 @@ body {
 .resume-item:before {
   content: "";
   display: block;
-  width: 1vh;
-  height: 1vh;
+  width: 2vh;
+  height: 2vh;
   border-radius: 50%;
-  background: rgb(22, 66, 37);
+  background: rgb(63, 66, 113);
   position: absolute;
-  margin-left: -6.5px;
+  margin-left: -0.5vw;
   margin-top: 18px;
 }
 
@@ -210,20 +210,6 @@ body {
   flex-flow: column wrap;
 }
 
-/* .display-skills-block__col1 {
-  display: block;
-  flex-basis: 50%;
-  overflow: hidden;
-  background: orange;
-}
-
-.display-skills-block__col2 {
-  display: block;
-  flex-basis: 50%;
-  overflow: hidden;
-  background: turquoise;
-} */
-
 .skills,
 .achievements__display {
   display: flex;
@@ -245,15 +231,3 @@ body {
   float: right;
   margin-right: 8vw;
 }
-
-/* .skill_bar__col1 {
-  display: block;
-  width: 50%;
-  overflow: hidden;
-  background: blue;
-}
-
-.skill_bar__col2 {
-  width: 50%;
-  background: yellow;
-} */
