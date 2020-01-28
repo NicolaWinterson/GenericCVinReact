@@ -1,2 +1,0 @@
-# GenericCVinReact
-Created with CodeSandbox

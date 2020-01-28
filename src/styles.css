@@ -1,0 +1,253 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap");
+
+body {
+  background: url(Floral-Background.jpg) center center;
+  background-size: 100vw;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  font-family: "Open Sans Condensed", sans-serif;
+  width: 95vw;
+  /* position: absolute; */
+  border: solid black 2px;
+  display: flex;
+}
+
+.container__left {
+  padding: 5vw 0vw 0vw 5vw;
+  width: 30vw;
+}
+
+.container__right {
+  width: 60vw;
+  position: relative;
+  padding-right: 5vw;
+}
+
+/* .container__right:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: rgb(107, 48, 53);
+  height: 100%;
+  width: 1px;
+  right: 0;
+  top: 0;
+} */
+
+.profile-image {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  width: 20vmin;
+  height: 20vmin;
+  border: solid black 2px;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.container a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.social-media-icons {
+  height: 3vh;
+  width: 3vh;
+}
+
+.contact-info,
+.social-media-links {
+  font-style: normal;
+  font-size: 1.8vmin;
+  margin-bottom: 3vh;
+}
+
+.social-media-links p {
+  margin-top: 0px;
+}
+
+.contact-info--header {
+  font-size: 5vmin;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.contact-info__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+  text-align: justify;
+}
+
+.contact-info__grid dd {
+  margin: 0;
+  padding: 0.3vh 0vh;
+}
+
+.contact-info__inline dd {
+  margin: 0;
+  padding: 0.3vh 0vh;
+}
+
+.skill_bar {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.skill_level .full,
+.skill_level .not_full {
+  display: inline-block;
+  height: 1.6vmin;
+  width: 1.6vmin;
+  margin-right: 2px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.skill_level .full {
+  background: black;
+}
+
+.skill_level .not_full {
+}
+
+.resume-item {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-left: solid 2px rgb(22, 66, 37);
+  padding: 0px;
+  margin: 0px;
+  /* background: fuchsia; */
+}
+
+.resume-item ul {
+  list-style-type: none;
+}
+
+.resume-item__title {
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 4vmin;
+  font-weight: 150;
+  margin-bottom: 0;
+  /* background: lime; */
+}
+
+.resume-item__subheading,
+.resume-item__content {
+  font-size: 1.8vmin;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.achievements__subheading {
+  font-size: 1.8vmin;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.resume-item:before {
+  content: "";
+  display: block;
+  width: 1vh;
+  height: 1vh;
+  border-radius: 50%;
+  background: rgb(22, 66, 37);
+  position: absolute;
+  margin-left: -6.5px;
+  margin-top: 18px;
+}
+
+.time-range-block {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.time-range-block__col1 {
+  display: block;
+  width: 20%;
+  overflow: hidden;
+  /* background: blue; */
+}
+
+.time-range-block__col2 {
+  flex: 1;
+  /* background: yellow; */
+}
+
+.time-range-block__title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.time-range-block__content * {
+  margin: 0;
+  color: black;
+}
+
+.time-range-block__time {
+  font-weight: bold;
+}
+
+.display-skills-block {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* .display-skills-block__col1 {
+  display: block;
+  flex-basis: 50%;
+  overflow: hidden;
+  background: orange;
+}
+
+.display-skills-block__col2 {
+  display: block;
+  flex-basis: 50%;
+  overflow: hidden;
+  background: turquoise;
+} */
+
+.skills,
+.achievements__display {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill_bar,
+.achievements__display--flex {
+  flex-basis: 40%;
+  display: inline;
+  /* margin-right: 20px; */
+}
+
+.skill_name {
+  /* background: yellow; */
+}
+
+.skill_level {
+  float: right;
+  margin-right: 8vw;
+}
+
+/* .skill_bar__col1 {
+  display: block;
+  width: 50%;
+  overflow: hidden;
+  background: blue;
+}
+
+.skill_bar__col2 {
+  width: 50%;
+  background: yellow;
+} */
