@@ -1,2 +1,2 @@
-# Generic CV
-Homework for FooCoding, published a generic C.V. coded in ReactJS
+# Generic CVP
+published via Netlify a generic C.V., coded in ReactJS
